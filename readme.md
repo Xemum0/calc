@@ -106,16 +106,6 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
    }
    ```
 
-## Development
-
-To contribute to this project:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## Deployment
 
 This API is designed to be deployed on Vercel. To deploy:
