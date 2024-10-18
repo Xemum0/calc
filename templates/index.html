@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator API</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #00b4db, #0083b0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: white;
+            color: #0083b0;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        a:hover {
+            background-color: #00b4db;
+            color: white;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Calculator API</h1>
+        <p>Simple operations like addition, subtraction, multiplication, and division at your fingertips!</p>
+        <a href="/docs">Go to API Documentation</a>
+    </div>
+</body>
+</html>
