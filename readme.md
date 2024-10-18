@@ -138,6 +138,8 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
   "status": "error"
   } ```
 
+
+
 ## Deployment
 
 This API is designed to be deployed on Vercel. To deploy:
