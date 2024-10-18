@@ -101,9 +101,10 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
 
 ### Examples
 
-1. Addition:
+
+ 1. Addition:
    ```
-   GET /add/5/3
+   https://calculatorsapi.vercel.app/add/5/3
    ```
    Response:
    ```json
@@ -115,7 +116,7 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
 
 2. Division:
    ```
-   GET /divide/10/2
+   https://calculatorsapi.vercel.app/divide/10/2
    ```
    Response:
    ```json
@@ -127,7 +128,7 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
 
 3. Division by Zero:
    ```
-   GET /divide/5/0
+  https://calculatorsapi.vercel.app/divide/5/0
    ```
    Response:
    ```json
