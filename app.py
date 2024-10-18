@@ -23,7 +23,7 @@ def calculate(operation: str, a: str, b: str):
                 calculator = Subtract.subtract()
             case "multiply":
                 calculator = Multiply.multiply()
-            case "":
+            case "divide":
                 calculator = Divide.divide()
             case _:
                 return jsonify({
