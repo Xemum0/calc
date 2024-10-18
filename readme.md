@@ -84,7 +84,7 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
 
 2. Division:
    ```
-  https://calculatorsapi.vercel.app/divide/10/2
+   https://calculatorsapi.vercel.app/divide/10/2
    ```
    Response:
    ```json
