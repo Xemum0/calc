@@ -123,8 +123,9 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
    {
   "result": "the result of divide 10.0 and 2.0 is 5.0",
   "status": "success"
-   }
-   ```
+   } ```
+   
+
 
 3. Division by Zero:
    ```
@@ -135,8 +136,7 @@ Error Response (400 Bad Request, 422 Unprocessable Entity, or 500 Internal Serve
    {
   "message": "Division by zero",
   "status": "error"
-  }
-   ```
+  } ```
 
 ## Deployment
 
