@@ -1,4 +1,4 @@
-please can you fix this readme file because it look messy here :
+
 # Calculator API
 ## Overview
 This project is a simple, Flask-based calculator API that provides basic arithmetic operations (addition, subtraction, multiplication, and division) through a RESTful interface. It's designed to be easily deployable on Vercel, making it accessible as a serverless function.
